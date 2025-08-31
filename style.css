@@ -8,6 +8,7 @@
 /* Cabeçalho */
 
 #header{
+    width: 100%;
     background-color: #00008b;
     padding: 15px;
     text-align: center;
