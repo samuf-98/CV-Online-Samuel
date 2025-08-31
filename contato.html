@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> <!-- referência ao css que está externo para serem aplicadas as formatações no HTML -->
+    <title>Samuel Ferreira</title> 
+</head>
+<body>
+
+    <div id="header">
+
+        <div id="marca">
+            <h1>Engenheiro<span class="sobrenome">Samuel F.</span></h1> <!--span para quebrar a palavra-->
+        </div>
+    
+        <div id="menu_contato"> <!-- espaço para o menú -->
+
+            <!-- criação das abas de navegação do site -->
+            <a href="index.html" class="sobreMim">Sobre Mim</a>
+            <a href="formacao.html" class="formacao">Formação Acadêmica</a>
+            <a href="portifolio.html" class="portifolio">Portifólio</a>
+            <a style="background-color: white; color: blue;" 
+                href="contato.html" class="contato">Contato</a>
+
+        </div>
+
+    </div>
+
+    <div style="width: 900px; margin: 0 auto;" id="aba_contato"> <!-- área para publicação do conteúdo do site -->
+
+        <div class="post"> <!-- área para publicação principal do site -->
+
+            <h1>Entrar em Contato</h1>
+
+            <form action="">
+
+                <label style="margin: 5px;" for="Nome">Nome:</label>
+                <input style="margin: 5px; width: 300px;" type="text" id="nome" name="nome"> <br>
+
+                <label style="margin: 5px;" for="email">Email:</label>
+                <input style="margin: 5px; width: 300px;" type="email" id="email"> <br> <br>
+
+                <label style="margin: 5px;" for="comentario">Comentário:</label> <br>
+                <input style="margin: 5px; height: 100px; width: 300px;" type="text" id="comentario"> <br>
+
+                <button style="margin: 5px; width: 100px;" type="submit">Enviar</button>
+
+            </form>            
+            
+        </div>
+
+    </div>
+    
+</body>
+</html>

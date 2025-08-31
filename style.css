@@ -1,0 +1,82 @@
+/* Limpar formatações */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+
+#header{
+    background-color: #00008b;
+    padding: 15px;
+    text-align: center;
+    color: lightblue;
+    margin-bottom: 20px;
+}
+
+
+
+.sobrenome{
+    color: white;
+    font-size: 60px;
+}
+
+#header a:link, #header a:visited{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+#header a:hover {
+    color: blue;
+    background: white;
+}
+
+#menu a:active{
+    background: white;
+}
+
+/* Conteúdo */
+
+#content{
+    width: 1280px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.post{
+    width: 900px;
+    float: left;background: #f5f5f5;
+    text-align: justify;
+}
+
+h1{
+    font-size: 36px;
+    padding: 15px
+}
+
+p{
+    font-size: 20px;
+    padding: 5px 20px;
+}
+
+.menu_lateral{
+    float: right;
+    width: 320px;
+    background: rgb(213, 234, 242);
+}
+
+h2{
+    text-align: center;
+    padding: 10px;
+}
+
+h3{
+    margin-left: 10px;
+}
+
+p{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
